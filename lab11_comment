@@ -1,0 +1,9 @@
+2. Le cross compilateur se trouve dans /usr/bin et l'exécutable est arm-linux-gnueabi-gcc
+
+3. Utilisation de la commande: echo 'export ARCH=arm' >> /home/ilyes/.bashrc
+   Utilisation de la commande: echo 'export CROSS_COMPILE=arm-linux-gnueabi-' >> /home/ilyes/.bashrc
+
+4. Afin de vérifier qu'on peut accéder au compilateur depuis le bureau, on tape arm- + tab et on regarde si il est présent dans la liste. Oui il est présent.
+
+
+7. Il n'est pas possible d'éxcécuter le binaire sur ma machine car c'est un binaire ARM qui n'est pas compatible avec ma machine.
